@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.zlcook</groupId>
+  <artifactId>annotation</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <properties>
+    <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+  
+  <dependencies>
+	  <dependency>
+		  <groupId>com.zlcook.processor</groupId>
+		  <artifactId>annotation-processor</artifactId>
+		  <version>0.0.5-SNAPSHOT</version>
+		  <scope>provided</scope>
+	  </dependency>
+  </dependencies>
+  
+  <build>
+   <plugins>
+    <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.1</version>
+        <executions>
+          <execution>
+            <id>default-compile</id>
+            <phase>compile</phase>
+            <goals>
+              <goal>compile</goal>
+            </goals>
+            <configuration>
+             <source>1.8</source>
+             <target>1.8</target>
+              <annotationProcessors>
+                <annotationProcessor>com.zlcook.processor.HibernateAnnotationProcessor</annotationProcessor>
+             </annotationProcessors> 
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+   </plugins>
+  </build>
+</project>
