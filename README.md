@@ -1,6 +1,6 @@
-#½éÉÜ
-annotationºÍannotation-processor¶¼ÊÇmaven½á¹¹µÄÏîÄ¿¡£
-annotation-processor³ÌĞòÊÇÔËĞĞÊ±×¢½â´¦ÀíÆ÷
-annotationÊÇ×¢½âÑ§Ï°µÄ²âÊÔ´úÂë£¬°üº¬ÁË²âÊÔ´¦Àí±àÒë×¢½â¹¦ÄÜ¡£
+# ä»‹ç»
+annotationå’Œannotation-processoréƒ½æ˜¯mavenç»“æ„çš„é¡¹ç›®ã€‚
+annotation-processorç¨‹åºæ˜¯è¿è¡Œæ—¶æ³¨è§£å¤„ç†å™¨
+annotationæ˜¯æ³¨è§£å­¦ä¹ çš„æµ‹è¯•ä»£ç ï¼ŒåŒ…å«äº†æµ‹è¯•å¤„ç†ç¼–è¯‘æ³¨è§£åŠŸèƒ½ã€‚
 
-¸ÃÏîÄ¿µÄÔËĞĞ²Î¿¼ÎÄÕÂ[Java:Annotation](http://www.jianshu.com/p/28edf5352b63)
+è¯¥é¡¹ç›®çš„è¿è¡Œå‚è€ƒæ–‡ç« [Java:Annotation](http://www.jianshu.com/p/28edf5352b63)
